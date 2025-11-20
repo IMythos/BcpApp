@@ -1,1 +1,41 @@
 @import 'tailwindcss';
+
+@font-face {
+  font-family: 'Flexo App';
+  src: url('../public/assets/fonts/flexo-regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Flexo App';
+  src: url('../public/assets/fonts/flexo-medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Flexo App';
+  src: url('../public/assets/fonts/flexo-demibold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Flexo-Demi";
+  src: url("https://db.onlinewebfonts.com/t/073a3b73a63a87e100f6bb8f003fc0d3.eot");
+  src: url("https://db.onlinewebfonts.com/t/073a3b73a63a87e100f6bb8f003fc0d3.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/073a3b73a63a87e100f6bb8f003fc0d3.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/073a3b73a63a87e100f6bb8f003fc0d3.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/073a3b73a63a87e100f6bb8f003fc0d3.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/073a3b73a63a87e100f6bb8f003fc0d3.svg#Flexo-Demi")format("svg");
+}
+
+body {
+  font-family: 'Flexo-Demi', sans-serif;
+  margin: 0;
+  padding: 0;
+}
