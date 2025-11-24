@@ -1,10 +1,11 @@
 import { Component, signal } from "@angular/core";
+import { RouterLink } from "@angular/router";
 import { LucideAngularModule, ChevronDown, Search, HandCoins, LockKeyhole, Menu, X, CreditCard, Smartphone, BadgeCheck, Info } from "lucide-angular";
 
 @Component({
   selector: 'client-header',
   standalone: true,
-  imports: [LucideAngularModule],
+  imports: [LucideAngularModule, RouterLink],
   templateUrl: 'header.component.html'
 })
 

@@ -1,0 +1,37 @@
+<div class="bg-white rounded-3xl shadow h-full flex-1 p-8">
+  <div class="flex items-center">
+    <div>
+      <h2 class="text-3xl text-[#002A8D] mb-2">Conoce tus productos preaprobados</h2>
+      <div>
+        <div class="flex items-center mb-1 gap-1">
+          <lucide-icon [img]="CircleCheckIcon" strokeWidth="2" size="16" color="#008d2f"></lucide-icon>
+          <span class="text-sm text-[#202e44]">Solo con tu correo electronico</span>
+        </div>
+        <div class="flex items-center mb-1 gap-1">
+          <lucide-icon [img]="CircleCheckIcon" strokeWidth="2" size="16" color="#008d2f"></lucide-icon>
+          <span class="text-sm text-[#202e44]">Para clientes y no clientes BCP</span>
+        </div>
+      </div>
+    </div>
+    <div>
+      <img src="assets/images/img-seguridad.png" />
+    </div>
+  </div>
+  <form class="mt-1">
+    <div class="flex gap-3">
+      <div>
+        <button class="border-t border-l border-b border-[#b7bbc2] rounded-l-lg py-2.5 px-4 text-sm">EMAIL</button>
+        <input class="border border-[#b7bbc2] rounded-r-lg py-2.5 px-4 text-sm" type="text" placeholder="Correo electrónico" />
+      </div>
+      <div>
+        <button
+          class="flex items-center gap-1 border border-[#FF7800] bg-[#FF7800] hover:bg-[#ffa733] hover:border-[#ffa733] hover:cursor-pointer py-2.5 px-5 rounded-4xl transition ease-linear hover:shadow-md">
+          <span class="text-sm text-white">Conocer</span>
+        </button>
+      </div>
+    </div>
+  </form>
+  <div class="pt-6">
+    <span class="text-xs text-[#b7bbc2]">Declaro conocer que esta informacion sera utilizada unicamente para fines de este proceso, y sera tratada segun lo indicado en nuestra <strong>Política de Privacidad</strong></span>
+  </div>
+</div>
