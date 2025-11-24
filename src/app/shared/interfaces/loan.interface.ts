@@ -4,14 +4,17 @@ export interface CreditApplicationRequest {
   usuarioId: number;
   monto: number;
   plazoMeses: number;
-  motivo?: string;
-  ingresosMensuales: number;
 }
 
 export interface ApplicationRejectionRequest {
   motivo: string;
 }
 
-export interface PrestamoResponse extends Loan {
-    
+export interface LoanResponse extends Loan {
+  id: number;
+  usuarioId: number;
+  monto: number;
+  plazoMeses: number;
+  interes: number;
+  estado: string;
 }

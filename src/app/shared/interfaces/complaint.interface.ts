@@ -10,7 +10,6 @@ export interface ComplaintResponse {
   respuesta?: string;
   numeroSeguimiento: string;
 }
-// Interfaces previas...
 
 export interface CreateComplainRequest {
   clienteId: number;
