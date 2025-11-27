@@ -1,5 +1,5 @@
 import { inject, Injectable } from '@angular/core';
-import { environment } from '../../../environments/environment';
+import { environment } from '../../environments/environment';
 import { HttpClient, HttpParams } from '@angular/common/http';
 import { AccountDetailDTO, AccountDTO } from '../../shared/interfaces/account.interface';
 import { ApiResponse } from '../../shared/interfaces/api-response.interface';

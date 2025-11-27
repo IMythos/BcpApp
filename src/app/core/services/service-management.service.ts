@@ -1,6 +1,6 @@
 import { HttpClient } from '@angular/common/http';
 import { inject, Injectable } from '@angular/core';
-import { environment } from '../../../environments/environment';
+import { environment } from '../../environments/environment';
 import { CreateServiceRequest, EditServiceRequest, ServiceResponse } from '../../shared/interfaces/service.interface';
 import { ApiResponse } from '../../shared/interfaces/api-response.interface';
 import { Observable } from 'rxjs';

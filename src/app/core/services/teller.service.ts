@@ -1,6 +1,6 @@
 import { HttpClient } from '@angular/common/http';
 import { inject, Injectable } from '@angular/core';
-import { environment } from '../../../environments/environment';
+import { environment } from '../../environments/environment';
 import { CashierDeposit, WindowPayment, WindowWithdrawal } from '../../shared/interfaces/teller.interface';
 import { Observable } from 'rxjs';
 import { ApiResponse } from '../../shared/interfaces/api-response.interface';
@@ -9,7 +9,7 @@ import { ApiResponse } from '../../shared/interfaces/api-response.interface';
   providedIn: 'root',
 })
 export class TellerService {
-   private http = inject(HttpClient);
+  private http = inject(HttpClient);
   url = environment.apiURL;
   private apiUrl = `${this.url}/api/ventanilla`;
 
